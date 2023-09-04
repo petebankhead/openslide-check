@@ -13,3 +13,8 @@ libs/libopenslide-jni.jnilib
 ```
 
 For other platforms, the appropriate native libraries should be used.
+
+To test with a different JDK (e.g. to compare aarch64 and x86_64), create a `gradle.properties` file with (for example)
+```
+org.gradle.java.home=/path/to/JDK/Contents/Home
+```
